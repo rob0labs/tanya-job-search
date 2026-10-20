@@ -1,6 +1,0 @@
-{
-  "name": "tanya-job-search",
-  "compatibility_date": "2026-10-20",
-  "observability": { "enabled": true },
-  "assets": { "directory": "./public" }
-}
