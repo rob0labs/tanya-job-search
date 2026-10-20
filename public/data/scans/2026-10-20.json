@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "lastScan": "2026-10-20",
+    "gradeA": 2,
+    "gradeB": 5,
+    "passedVerification": 8,
+    "notes": "First scan. Danish is the biggest filter: many Copenhagen roles in your field are posted in Danish or require it, so remote and English-first employers are your best lane. Manager titles are where the 40,000 kroner sits."
+  },
+  "health": [
+    {
+      "source": "LinkedIn (Denmark, EU remote, Sofia)",
+      "actor": "curious_coder/linkedin-jobs-scraper",
+      "status": "ok",
+      "items": 326,
+      "notes": "14 searches, 295 unique"
+    },
+    {
+      "source": "The Hub",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 49,
+      "notes": "Mostly student and volunteer roles this week"
+    },
+    {
+      "source": "climate.jobs Denmark",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 9,
+      "notes": "Nothing strong"
+    }
+  ],
+  "dream": [
+    {
+      "name": "Mesh Community",
+      "hit": true,
+      "roles": "Event Coordinator (temporary, Danish required). Already applied."
+    },
+    {
+      "name": "Hobo Copenhagen",
+      "hit": false,
+      "roles": "House Creator closed 2 Aug, Danish required. Hotel opens Q1 2027: worth a direct note to the General Manager."
+    },
+    {
+      "name": "Klimate / Nordic Carbon Removal Association",
+      "hit": true,
+      "roles": "Communications & Business Development Associate"
+    },
+    {
+      "name": "Copenhagen Capacity",
+      "hit": true,
+      "roles": "Project Manager - Science Hub Denmark"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "boozt-events-partnerships-coordinator",
+      "grade": "A",
+      "track": "events",
+      "country": "DK",
+      "title": "Events & Partnerships Coordinator",
+      "company": "Boozt",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "19 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4480230881/",
+      "notes": "Almost word for word your profile: brand events, pop-ups and partner activations, applications in English only. Lead with Nordic Fintech Week (20+ community partners, 33 volunteers, suppliers). Retail rather than impact. 100+ clicks already, apply this week.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "platform-engineering-senior-events-growth-manager",
+      "grade": "A",
+      "track": "events",
+      "country": "DK",
+      "title": "Senior Events Growth Manager",
+      "company": "Platform Engineering",
+      "location": "Copenhagen",
+      "workModel": "Remote",
+      "salary": "",
+      "posted": "19 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4481200271/",
+      "notes": "An events and community company, which they ask for directly. Your 50+ events and Luma-style event marketing fit. Gap: senior title and they want audience growth with HubSpot, so put attendance and partner numbers up front. Best route to your salary target.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "copenhagen-capacity-project-manager-science-hub",
+      "grade": "B",
+      "track": "community",
+      "country": "DK",
+      "title": "Project Manager - Science Hub Denmark",
+      "company": "Copenhagen Capacity",
+      "location": "Copenhagen",
+      "workModel": "Hybrid",
+      "salary": "",
+      "posted": "20 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4481563796/",
+      "notes": "Ecosystem and hub work, close to Copenhagen Fintech and Health Tech Hub. Honest gaps: they ask for a science master's or PhD and presenting in Danish. Frame your hub experience as the reason to stretch.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": true
+    },
+    {
+      "id": "klimate-ncra-communications-bd-associate",
+      "grade": "B",
+      "track": "partnerships",
+      "country": "DK",
+      "title": "Communications & Business Development Associate",
+      "company": "Klimate / Nordic Carbon Removal Association",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "DKK 36k to 38k / month",
+      "posted": "13 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4478773301/",
+      "notes": "Climate, two organisations, lots of stakeholder work. DKK 36,000 to 38,000 plus 6% pension. They want a start between now and 1 December, so say January clearly if you apply.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": true
+    },
+    {
+      "id": "lego-program-manager-game-creators",
+      "grade": "B",
+      "track": "community",
+      "country": "DK",
+      "title": "Program Manager, GAME Creators (fixed term)",
+      "company": "The LEGO Group",
+      "location": "Copenhagen",
+      "workModel": "Hybrid",
+      "salary": "",
+      "posted": "13 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4476031200/",
+      "notes": "Runs creator and community programmes day to day. Gap: they want gaming or creator-platform experience. Your community-building and partner programmes are the angle.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "zyte-events-manager-remote",
+      "grade": "B",
+      "track": "events",
+      "country": "REMOTE",
+      "title": "Events Manager - Remote",
+      "company": "Zyte",
+      "location": "Remote (Europe)",
+      "workModel": "Remote",
+      "salary": "EUR 55k to 70k / year",
+      "posted": "19 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4480988898/",
+      "notes": "Fully remote, real events ownership, EUR 55,000 to 70,000. Gap: they want experience running events for developer or data audiences, and 100+ have applied.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "reform-marketing-coordinator",
+      "grade": "B",
+      "track": "marketing",
+      "country": "DK",
+      "title": "Marketing Coordinator",
+      "company": "Reform",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "13 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4478358980/",
+      "notes": "Design brand, creative side. 1 to 3 years asked, Danish or German a plus only. Likely below your salary target.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "severalnines-field-community-marketing-manager",
+      "grade": "C",
+      "track": "community",
+      "country": "REMOTE",
+      "title": "Field & Community Marketing Manager",
+      "company": "Severalnines",
+      "location": "Remote (worldwide)",
+      "workModel": "Remote",
+      "salary": "",
+      "posted": "20 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4481585089/",
+      "notes": "Meetups, conferences and webinars, 100% remote. Database software, so no impact angle, and they want B2B tech marketing.",
+      "scanDate": "2026-10-20",
+      "verified": true,
+      "dreamCompany": false
+    }
+  ]
+}
