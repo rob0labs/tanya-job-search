@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tanya's Job Board</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f2ec; --surface: #fffdf9; --ink: #1f1d1a; --muted: #6b655c; --line: #e4ddd2;
+  --accent: #2f6b5a; --accent-soft: #e2efe9;
+  --a: #2f6b5a; --a-bg: #e2efe9; --b: #2c5d8f; --b-bg: #e3ecf6; --c: #8a6a1f; --c-bg: #f5ecd6;
+  --warn: #9a4a2a; --warn-bg: #f7e4da;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161513; --surface: #201f1c; --ink: #efe9df; --muted: #a59e92; --line: #34312c;
+    --accent: #7fc4ac; --accent-soft: #23342e;
+    --a: #7fc4ac; --a-bg: #23342e; --b: #8fb5e0; --b-bg: #1f2b39; --c: #d8b765; --c-bg: #352d1a;
+    --warn: #e4a27f; --warn-bg: #3a261c;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
+header h1 { font-family: Fraunces, Georgia, serif; font-weight: 650; font-size: clamp(28px, 5vw, 40px); margin: 0 0 4px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin: 24px 0 8px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+.stat b { display: block; font-family: Fraunces, Georgia, serif; font-size: 24px; font-weight: 500; }
+.stat span { color: var(--muted); font-size: 13px; }
+.notes { color: var(--muted); font-size: 14px; margin: 12px 0 24px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.filters select, .filters label { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 14px; }
+.filters label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+h2 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 22px; margin: 32px 0 12px; }
+.job { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; margin-bottom: 10px; }
+.job-top { display: flex; gap: 12px; align-items: flex-start; }
+.grade { flex: none; width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center; font-weight: 600; }
+.grade.A { color: var(--a); background: var(--a-bg); } .grade.B { color: var(--b); background: var(--b-bg); } .grade.C { color: var(--c); background: var(--c-bg); }
+.job h3 { margin: 0; font-size: 16px; font-weight: 600; }
+.job h3 a { color: inherit; text-decoration: none; }
+.job h3 a:hover { text-decoration: underline; }
+.company { color: var(--muted); font-size: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }
+.tag.new { background: var(--accent-soft); color: var(--accent); border-color: transparent; font-weight: 600; }
+.tag.dream { background: var(--c-bg); color: var(--c); border-color: transparent; }
+.tag.unverified { background: var(--warn-bg); color: var(--warn); border-color: transparent; }
+.job p { margin: 10px 0 0; font-size: 14px; }
+.apply { display: inline-block; margin-top: 10px; color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; }
+.apply:hover { text-decoration: underline; }
+.empty { color: var(--muted); padding: 24px; text-align: center; border: 1px dashed var(--line); border-radius: var(--radius); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 13px; }
+tr:last-child td { border-bottom: none; }
+.table-scroll { overflow-x: auto; }
+.ok { color: var(--a); } .fail { color: var(--warn); }
+details summary { cursor: pointer; font-family: Fraunces, Georgia, serif; font-size: 22px; margin: 32px 0 12px; }
+footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Tanya's Job Board</h1>
+    <p id="subtitle">Weekly scan for events, community, partnership and project roles with impact. Copenhagen, remote and Sofia. Every listing is checked live before it lands here.</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+  <p class="notes" id="notes"></p>
+
+  <div class="filters" role="group" aria-label="Filters">
+    <select id="f-grade" aria-label="Grade">
+      <option value="">All grades</option><option value="A">A: apply now</option><option value="B">B: strong</option><option value="C">C: worth a look</option>
+    </select>
+    <select id="f-track" aria-label="Track"><option value="">All tracks</option></select>
+    <select id="f-country" aria-label="Location"><option value="">All locations</option></select>
+    <label><input type="checkbox" id="f-new"> New this week</label>
+  </div>
+
+  <div id="jobs"></div>
+
+  <h2>Dream companies</h2>
+  <div class="table-scroll"><table><thead><tr><th>Company</th><th>Status</th><th>Roles</th></tr></thead><tbody id="dream"></tbody></table></div>
+
+  <details>
+    <summary>Scraper health</summary>
+    <div class="table-scroll"><table><thead><tr><th>Source</th><th>Actor</th><th>Status</th><th>Items</th><th>Notes</th></tr></thead><tbody id="health"></tbody></table></div>
+  </details>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+// Static shell. Weekly data lives in data/manifest.json and data/scans/YYYY-MM-DD.json (under public/).
+// This file is written once and never rewritten by weekly runs.
+const SCAN_META = { lastScan: null };
+const JOBS = [];
+const SCRAPER_HEALTH = [];
+const DREAM_COMPANIES = [
+  { name: "Mesh Community", hit: false, roles: "" },
+  { name: "Hobo Copenhagen", hit: false, roles: "" },
+  { name: "Klimate / Nordic Carbon Removal Association", hit: false, roles: "" },
+  { name: "Copenhagen Capacity", hit: false, roles: "" },
+  { name: "State of Green", hit: false, roles: "" },
+  { name: "BLOXHUB", hit: false, roles: "" },
+  { name: "CLEAN", hit: false, roles: "" },
+  { name: "TechBBQ", hit: false, roles: "" }
+];
+const TRACKS = { events: "Events", community: "Community and ecosystem", partnerships: "Partnerships and business development", programme: "Project and programme", marketing: "Marketing and communications" };
+const COUNTRIES = { DK: "Copenhagen", REMOTE: "Remote", BG: "Sofia", OTHER: "Elsewhere" };
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDate = d => d ? new Date(d + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : "not yet";
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+
+async function loadScans() {
+  const bust = "?v=" + Date.now();
+  const manifest = await fetch("data/manifest.json" + bust).then(r => r.ok ? r.json() : { scans: [] });
+  for (const file of (manifest.scans || [])) {
+    const scan = await fetch("data/scans/" + file + bust).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (!scan) continue;
+    if (scan.meta) Object.assign(SCAN_META, scan.meta);
+    if (Array.isArray(scan.health) && scan.health.length) SCRAPER_HEALTH.splice(0, SCRAPER_HEALTH.length, ...scan.health);
+    for (const d of (scan.dream || [])) {
+      const i = DREAM_COMPANIES.findIndex(x => x.name === d.name);
+      if (i >= 0) DREAM_COMPANIES[i] = Object.assign({}, DREAM_COMPANIES[i], d); else DREAM_COMPANIES.push(d);
+    }
+    for (const j of (scan.jobs || []).slice().reverse()) {
+      const i = JOBS.findIndex(x => x.id === j.id);
+      if (i >= 0) JOBS.splice(i, 1);
+      if (j.removed) continue; // a later scan can retire a role with {"id": "...", "removed": true}
+      JOBS.unshift(j);
+    }
+  }
+}
+
+function fillSelect(sel, map, used) {
+  for (const k of Object.keys(map)) if (used.has(k)) sel.insertAdjacentHTML("beforeend", `<option value="${k}">${esc(map[k])}</option>`);
+}
+
+function renderStats() {
+  const m = SCAN_META;
+  const items = [
+    [fmtDate(m.lastScan), "Last scan"],
+    [JOBS.length, "Roles on the board"],
+    [m.gradeA ?? 0, "A-grade this week"],
+    [m.gradeB ?? 0, "B-grade this week"],
+    [m.passedVerification != null ? `${m.passedVerification}` : "0", "Checked live this week"]
+  ];
+  $("stats").innerHTML = items.map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
+  $("notes").textContent = m.notes || "";
+  $("footer").textContent = m.lastScan ? `Updated ${fmtDate(m.lastScan)}. Salaries marked "est." are estimates, not employer figures.` : "The first scan has not been published yet.";
+}
+
+function jobCard(j) {
+  const isNew = j.scanDate && j.scanDate === SCAN_META.lastScan;
+  const tags = [];
+  if (isNew) tags.push(`<span class="tag new">New</span>`);
+  if (j.dreamCompany) tags.push(`<span class="tag dream">Dream company</span>`);
+  if (j.verified === false) tags.push(`<span class="tag unverified">Not verified</span>`);
+  if (j.track && TRACKS[j.track]) tags.push(`<span class="tag">${esc(TRACKS[j.track])}</span>`);
+  if (j.location) tags.push(`<span class="tag">${esc(j.location)}</span>`);
+  if (j.workModel) tags.push(`<span class="tag">${esc(j.workModel)}</span>`);
+  if (j.salary) tags.push(`<span class="tag">${esc(j.salary)}</span>`);
+  if (j.posted) tags.push(`<span class="tag">Posted ${esc(j.posted)}</span>`);
+  if (j.source) tags.push(`<span class="tag">via ${esc(j.source)}</span>`);
+  return `<article class="job">
+    <div class="job-top"><div class="grade ${esc(j.grade)}" aria-label="Grade ${esc(j.grade)}">${esc(j.grade)}</div>
+      <div><h3><a href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">${esc(j.title)}</a></h3><div class="company">${esc(j.company)}</div></div></div>
+    <div class="tags">${tags.join("")}</div>
+    ${j.notes ? `<p>${esc(j.notes)}</p>` : ""}
+    <a class="apply" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Open listing</a>
+  </article>`;
+}
+
+function renderJobs() {
+  const g = $("f-grade").value, t = $("f-track").value, c = $("f-country").value, n = $("f-new").checked;
+  const order = { A: 0, B: 1, C: 2 };
+  const list = JOBS.filter(j => (!g || j.grade === g) && (!t || j.track === t) && (!c || j.country === c) && (!n || j.scanDate === SCAN_META.lastScan))
+    .sort((a, b) => (order[a.grade] ?? 9) - (order[b.grade] ?? 9) || String(b.scanDate).localeCompare(String(a.scanDate)));
+  $("jobs").innerHTML = list.length ? list.map(jobCard).join("") : `<div class="empty">${JOBS.length ? "No roles match these filters." : "No roles yet. The first scan will appear here."}</div>`;
+}
+
+function renderTables() {
+  $("dream").innerHTML = DREAM_COMPANIES.map(d => `<tr><td>${esc(d.name)}</td><td class="${d.hit ? "ok" : ""}">${d.hit ? "Open role found" : "Nothing open"}</td><td>${esc(d.roles || "")}</td></tr>`).join("");
+  $("health").innerHTML = SCRAPER_HEALTH.length ? SCRAPER_HEALTH.map(h => `<tr><td>${esc(h.source)}</td><td>${esc(h.actor)}</td><td class="${h.status === "ok" ? "ok" : "fail"}">${esc(h.status)}</td><td>${esc(h.items)}</td><td>${esc(h.notes || "")}</td></tr>`).join("") : `<tr><td colspan="5">No scan yet.</td></tr>`;
+}
+
+function renderAll() {
+  fillSelect($("f-track"), TRACKS, new Set(JOBS.map(j => j.track)));
+  fillSelect($("f-country"), COUNTRIES, new Set(JOBS.map(j => j.country)));
+  renderStats(); renderJobs(); renderTables();
+}
+["f-grade", "f-track", "f-country", "f-new"].forEach(id => $(id).addEventListener("change", renderJobs));
+loadScans().catch(err => console.warn("Scan data could not be loaded", err)).finally(renderAll);
+</script>
+</body>
+</html>
