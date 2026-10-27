@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "lastScan": "2026-10-27",
+    "gradeA": 1,
+    "gradeB": 1,
+    "passedVerification": 8,
+    "notes": "A thin week in Copenhagen: most new event and community roles were posted in Danish. The standout is Bevar Ukraine, a real community, partnerships and events role at an NGO, and DTU has a climate project role that starts exactly on 1 January. Boozt, LEGO and Reform have closed."
+  },
+  "health": [
+    {
+      "source": "LinkedIn (Denmark, EU remote, Sofia)",
+      "actor": "curious_coder/linkedin-jobs-scraper",
+      "status": "ok",
+      "items": 319,
+      "notes": "13 searches, 303 unique, 120 dropped as Danish-language"
+    },
+    {
+      "source": "The Hub",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 63,
+      "notes": "Mostly engineering roles; TechBBQ coordinator role is unpaid"
+    },
+    {
+      "source": "climate.jobs Denmark",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 9,
+      "notes": "Nothing in your lane"
+    }
+  ],
+  "dream": [
+    {
+      "name": "Mesh Community",
+      "hit": true,
+      "roles": "Event Coordinator (temporary) still listed. Already applied."
+    },
+    {
+      "name": "Hobo Copenhagen",
+      "hit": false,
+      "roles": "Only sales and General Manager listings. Hotel opens Q1 2027: still worth a direct note."
+    },
+    {
+      "name": "Klimate / Nordic Carbon Removal Association",
+      "hit": false,
+      "roles": "Communications & Business Development Associate: already applied, taken off the list."
+    },
+    {
+      "name": "Copenhagen Capacity",
+      "hit": true,
+      "roles": "Project Manager - Science Hub Denmark still open"
+    },
+    {
+      "name": "TechBBQ",
+      "hit": true,
+      "roles": "Project Coordinator (Nordic - India), unpaid volunteer role"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "bevar-ukraine-youth-leadership-project-manager",
+      "grade": "A",
+      "track": "community",
+      "country": "DK",
+      "title": "Youth Leadership Project Manager",
+      "company": "Bevar Ukraine",
+      "location": "Copenhagen (Nørrebro)",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "26 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4483542346/",
+      "notes": "Community, partnerships and events in one role at an NGO: you run a leadership academy, a 40-speaker network, volunteers and partners across municipalities and companies, in English. Lead with the 33 volunteers and 20+ partners at Nordic Fintech Week plus your social entrepreneurship master. Gaps: they want a 1 December start (ask for January), some evening and weekend events, and NGO pay is likely under 40k.",
+      "scanDate": "2026-10-27",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "dtu-project-manager-climate-energy-policy",
+      "grade": "B",
+      "track": "programme",
+      "country": "DK",
+      "title": "Project Manager in the Climate and Energy Policy Division - DTU Management",
+      "company": "DTU - Technical University of Denmark",
+      "location": "Kongens Lyngby",
+      "workModel": "On-site",
+      "salary": "AC collective agreement",
+      "posted": "26 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4482885579/",
+      "notes": "Climate impact, English, and it starts exactly on 1 January 2027 (2 year contract). You would run project meetings, consortium coordination and dissemination for EU projects. Honest gap: they ask for knowledge of energy systems and data handling, so lead with stakeholder coordination and multi-partner delivery. Deadline 6 November, 100+ clicks already.",
+      "scanDate": "2026-10-27",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "insait-program-manager-research-projects",
+      "grade": "C",
+      "track": "programme",
+      "country": "BG",
+      "title": "Program Manager - Research Projects and Academic Administration",
+      "company": "INSAIT",
+      "location": "Sofia",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "27 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4481897144/",
+      "notes": "Sofia option at a respected AI institute, working with researchers and external partners, and your Bulgarian is a real plus here. It leans on funding proposals and admin rather than events or community, so it is a stretch on the work you want.",
+      "scanDate": "2026-10-27",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "epassi-people-experience-events-project-lead",
+      "grade": "C",
+      "track": "events",
+      "country": "REMOTE",
+      "title": "People Experience & Events Project Lead",
+      "company": "Epassi",
+      "location": "Remote or any Epassi office (listed in Helsinki)",
+      "workModel": "Hybrid or remote",
+      "salary": "",
+      "posted": "21 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4481165295/",
+      "notes": "You would lead a 1,000+ person company event in March plus internal comms, and remote is allowed. Big gaps: fixed term to end of March 2027 at 3 to 4 days a week, immediate start, and it is an employee benefits platform. Only worth it as a short paid bridge.",
+      "scanDate": "2026-10-27",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "techbbq-project-coordinator-nordic-india",
+      "grade": "X",
+      "track": "programme",
+      "country": "DK",
+      "title": "Project Coordinator (Nordic - India)",
+      "company": "TechBBQ",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "Unpaid",
+      "posted": "21 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4482049983/",
+      "notes": "Dream company and the work fits (partner outreach for the Nordic India summit), but it is an unpaid long-term volunteer role at 5 to 20 hours a week. Shown so you know it exists; could be a way to get to know the TechBBQ team.",
+      "scanDate": "2026-10-27",
+      "verified": true,
+      "dreamCompany": true
+    },
+    { "id": "boozt-events-partnerships-coordinator", "removed": true },
+    { "id": "lego-program-manager-game-creators", "removed": true },
+    { "id": "reform-marketing-coordinator", "removed": true },
+    { "id": "klimate-ncra-communications-bd-associate", "removed": true }
+  ]
+}
