@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "lastScan": "2026-11-03",
+    "gradeA": 2,
+    "gradeB": 2,
+    "passedVerification": 13,
+    "notes": "A better week: TechBBQ is hiring a paid Global Partnerships Manager, and Zoku wants a community, events and partnerships person for its co-working hotel. DTU closes on 6 November and Copenhagen Capacity on 8 November. Severalnines has closed."
+  },
+  "health": [
+    {
+      "source": "LinkedIn (Denmark, EU remote, Sofia)",
+      "actor": "curious_coder/linkedin-jobs-scraper",
+      "status": "ok",
+      "items": 320,
+      "notes": "13 searches, 305 unique, 122 dropped as Danish-language"
+    },
+    {
+      "source": "The Hub",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 62,
+      "notes": "Mostly engineering and student roles; nothing new in your lane"
+    },
+    {
+      "source": "climate.jobs Denmark",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 8,
+      "notes": "Nothing in your lane"
+    }
+  ],
+  "dream": [
+    {
+      "name": "Mesh Community",
+      "hit": true,
+      "roles": "Event Coordinator (temporary) still listed on The Hub. Already applied."
+    },
+    {
+      "name": "Hobo Copenhagen",
+      "hit": false,
+      "roles": "No new roles found. Hotel opens Q1 2027: still worth a direct note."
+    },
+    {
+      "name": "Klimate / Nordic Carbon Removal Association",
+      "hit": false,
+      "roles": "Nothing new."
+    },
+    {
+      "name": "Copenhagen Capacity",
+      "hit": true,
+      "roles": "Project Manager - Science Hub Denmark still open, deadline 8 November"
+    },
+    {
+      "name": "State of Green",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "BLOXHUB",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "CLEAN",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "TechBBQ",
+      "hit": true,
+      "roles": "Global Partnerships Manager (paid, hybrid). The unpaid Nordic India coordinator role is off the list."
+    }
+  ],
+  "jobs": [
+    {
+      "id": "techbbq-global-partnerships-manager",
+      "grade": "A",
+      "track": "partnerships",
+      "country": "DK",
+      "title": "Global Partnerships Manager",
+      "company": "TechBBQ",
+      "location": "Copenhagen",
+      "workModel": "Hybrid",
+      "salary": "",
+      "posted": "2 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4486407005/",
+      "notes": "A dream company and a paid Manager role at the heart of the Nordic startup ecosystem, with hybrid flexibility. Lead with the sponsor and partner outreach at Copenhagen Fintech and the 20+ community partners at Nordic Fintech Week. Honest gap: it is commercial, they want 2 to 5 years in partnership sales or sponsorship with revenue targets, so frame your partner work in numbers.",
+      "scanDate": "2026-11-03",
+      "verified": true,
+      "dreamCompany": true
+    },
+    {
+      "id": "zoku-community-events-partnerships-manager",
+      "grade": "A",
+      "track": "community",
+      "country": "DK",
+      "title": "Community Events & Partnerships Manager",
+      "company": "Zoku",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "Market salary, pension and health insurance",
+      "posted": "30 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4485314317/",
+      "notes": "Hospitality, co-working and community in one: you would run the events programme, local partnerships and the co-working members at a B Corp hotel. They name coworking, social clubs, startups and hospitality as the background they want, and Danish is only a plus. Lead with your 50+ events and Mekitsi.Club. Gaps: on-site, and hotel pay may land under 40k, so ask early.",
+      "scanDate": "2026-11-03",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "axlab-event-experience-manager",
+      "grade": "B",
+      "track": "events",
+      "country": "DK",
+      "title": "Event & Experience Manager - Bring Axlab's customer experiences to life",
+      "company": "Axlab",
+      "location": "Copenhagen",
+      "workModel": "On-site, flexible hybrid per posting",
+      "salary": "",
+      "posted": "28 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4484481507/",
+      "notes": "You would own showroom visits, reference site tours, an academy and industry exhibitions, with a flexible hybrid setup. Gaps: they ask for five years in events or experiential marketing, it is a lab furniture manufacturer rather than impact, and Danish is an advantage. Lead with end to end ownership of Nordic Fintech Week.",
+      "scanDate": "2026-11-03",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "bab-consult-senior-event-congress-manager-sofia",
+      "grade": "B",
+      "track": "events",
+      "country": "BG",
+      "title": "Senior Event Congress Coordinator",
+      "company": "BAB Consult (for an international congress organiser)",
+      "location": "Sofia",
+      "workModel": "Hybrid",
+      "salary": "",
+      "posted": "2 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4486147813/",
+      "notes": "Sofia option with fixed Monday to Friday hours, hybrid work and paid travel, leading the account team on large congresses. Gaps: it is a recruiter posting for an unnamed client, they want association or congress (PCO) experience and people management, and Sofia pay will be well below Copenhagen.",
+      "scanDate": "2026-11-03",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "naked-copenhagen-content-community-manager",
+      "grade": "C",
+      "track": "community",
+      "country": "DK",
+      "title": "Content & Community Manager",
+      "company": "Naked Copenhagen",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "30 Oct 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4485356172/",
+      "notes": "Creative brand with real community work: creator collaborations, events and their Active Club, English copy. The bigger gap is that most of it is Instagram and TikTok content creation, and they want sneaker culture knowledge. 100+ applicants already.",
+      "scanDate": "2026-11-03",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "rockschool-business-community-development-sofia",
+      "grade": "C",
+      "track": "partnerships",
+      "country": "BG",
+      "title": "Business & Community Development Specialist",
+      "company": "RockSchool",
+      "location": "Sofia",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "3 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4481458217/",
+      "notes": "A music school in Sofia looking for partnerships, sponsors, social projects and events, posted in Bulgarian, so your native Bulgarian is the edge. It is measured on revenue and new clients, and Sofia pay is low, so it only makes sense if Sofia becomes the plan.",
+      "scanDate": "2026-11-03",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "severalnines-field-community-marketing-manager",
+      "removed": true
+    },
+    {
+      "id": "techbbq-project-coordinator-nordic-india",
+      "removed": true
+    }
+  ]
+}
