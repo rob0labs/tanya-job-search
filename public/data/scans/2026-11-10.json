@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "lastScan": "2026-11-10",
+    "gradeA": 2,
+    "gradeB": 3,
+    "passedVerification": 13,
+    "notes": "Two strong new ones: NKT wants someone to run its presence at COP, Folkemødet and other big public events for the green transition, and GetWhy is hiring its first Head of Global Events & Community. TechBBQ, Zoku, Platform Engineering and BAB Consult have closed."
+  },
+  "health": [
+    {
+      "source": "LinkedIn (Denmark, EU remote, Sofia)",
+      "actor": "curious_coder/linkedin-jobs-scraper",
+      "status": "ok",
+      "items": 325,
+      "notes": "13 searches, 306 unique, 110 dropped as Danish-language, 70 outside Capital Region"
+    },
+    {
+      "source": "The Hub",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 64,
+      "notes": "Mostly engineering, student and unpaid roles; nothing new in your lane"
+    },
+    {
+      "source": "climate.jobs Denmark",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 11,
+      "notes": "Nothing in your lane"
+    },
+    {
+      "source": "Hobo Copenhagen (Strawberry jobs)",
+      "actor": "WebSearch + WebFetch",
+      "status": "ok",
+      "items": 1,
+      "notes": "House Creator: Danish required and closed"
+    }
+  ],
+  "dream": [
+    {
+      "name": "Mesh Community",
+      "hit": true,
+      "roles": "Event Coordinator (temporary) still listed on The Hub. Already applied."
+    },
+    {
+      "name": "Hobo Copenhagen",
+      "hit": false,
+      "roles": "Found the House Creator role (community events and creative collabs), but it required fluent Danish and closed on 2 August. Hotel opens Q1 2027: still worth a direct note."
+    },
+    {
+      "name": "Klimate / Nordic Carbon Removal Association",
+      "hit": false,
+      "roles": "Nothing new."
+    },
+    {
+      "name": "Copenhagen Capacity",
+      "hit": false,
+      "roles": "Science Hub Project Manager closed on 8 November. Nothing new."
+    },
+    {
+      "name": "State of Green",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "BLOXHUB",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "CLEAN",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "TechBBQ",
+      "hit": false,
+      "roles": "Global Partnerships Manager has stopped accepting applications. Only unpaid internships left."
+    }
+  ],
+  "jobs": [
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "",
+      "id": "nkt-stakeholder-relations-coordinator",
+      "grade": "A",
+      "track": "partnerships",
+      "country": "DK",
+      "title": "Stakeholder Relations Coordinator",
+      "company": "NKT",
+      "location": "Copenhagen (Nordhavn HQ)",
+      "workModel": "On-site",
+      "posted": "5 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4486774582/",
+      "notes": "A new role running NKT's presence at big public and political events like Folkemødet, Almedalen, Wind Europe and the UN COPs, building relationships with NGOs, interest groups and political stakeholders for the green electrification agenda. English is the requirement and Danish only a plus. Lead with Nordic Fintech Week and your 20+ community partners; the honest gap is policy knowledge, so show curiosity for energy politics. Deadline 29 November."
+    },
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "",
+      "id": "getwhy-head-global-events-community",
+      "grade": "A",
+      "track": "events",
+      "country": "DK",
+      "title": "Head of Global Events & Community",
+      "company": "GetWhy",
+      "location": "Copenhagen",
+      "workModel": "Hybrid",
+      "posted": "6 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4488190541/",
+      "notes": "Their first events and community hire at a Series A scale-up: 15 to 20 events a year, sponsorships, speakers, VIP dinners and a flagship customer event. That is very close to what you did at Copenhagen Fintech, and the Head title should land at or above your 40,000 target. The gap is that they ask for 3 to 6 years in B2B SaaS event marketing tied to sales pipeline, so lead with your 50+ events and sponsor work and frame them in results."
+    },
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "DKK 651,000 to 956,900 a year",
+      "id": "novo-nordisk-congress-strategy-execution-manager",
+      "grade": "B",
+      "track": "events",
+      "country": "DK",
+      "title": "Congress Strategy & Execution Manager",
+      "company": "Novo Nordisk",
+      "location": "Søborg (Gladsaxe)",
+      "workModel": "On-site",
+      "posted": "3 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4484686728/",
+      "notes": "End to end planning of global medical congresses: budgets, vendors, project teams and onsite delivery, with a salary range well above your target. The gap is that it is big pharma and medical congresses rather than your startup world, and they want 3 to 4 years of complex events. Lead with Nordic Fintech Week logistics and budgets."
+    },
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "",
+      "id": "gsm-culture-specialist",
+      "grade": "B",
+      "track": "events",
+      "country": "DK",
+      "title": "Culture Specialist",
+      "company": "GSM - Green SM",
+      "location": "Kongens Lyngby",
+      "workModel": "On-site",
+      "posted": "5 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4485807558/",
+      "notes": "An electric mobility company building its European team wants someone to run employee events, newsletters and an ambassador community across markets. English-first and asks for 2 to 4 years. The gap is that the audience is internal staff, not an external community, and the title may pay below 40,000."
+    },
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "",
+      "id": "longi-sr-marketing-specialist-exhibitions-events",
+      "grade": "B",
+      "track": "events",
+      "country": "REMOTE",
+      "title": "Sr. Marketing Specialist - Exhibitions, Events & Live",
+      "company": "LONGi Solar",
+      "location": "Remote in Europe (Spain preferred)",
+      "workModel": "Remote",
+      "posted": "6 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4486970683/",
+      "notes": "Fully remote role planning solar and renewable energy trade fairs and conferences across Europe, so climate impact plus the event work you know. The gaps: they prefer someone based in Spain, want a second European language (German preferred) and solar experience is a plus. Your Portuguese and Bulgarian count as languages."
+    },
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "",
+      "id": "fiskars-marketing-activation-manager-gjrc",
+      "grade": "C",
+      "track": "marketing",
+      "country": "DK",
+      "title": "Marketing Activation Manager, GJRC",
+      "company": "Fiskars Group",
+      "location": "Frederiksberg",
+      "workModel": "On-site",
+      "posted": "5 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4487756157/",
+      "notes": "Brand activations for Georg Jensen and Royal Copenhagen with wholesale partners across EMEA, English-first in a design and creative setting. The gap is that it is trade and customer marketing with a sales focus, which you have not done. Deadline 21 November."
+    },
+    {
+      "source": "LinkedIn",
+      "scanDate": "2026-11-10",
+      "verified": true,
+      "dreamCompany": false,
+      "salary": "",
+      "id": "dtu-partnership-officer-energy-offshore",
+      "grade": "C",
+      "track": "partnerships",
+      "country": "DK",
+      "title": "Partnership Officer for Driving Strategic Industry Collaboration and Research Funding within Energy - DTU Offshore",
+      "company": "DTU - Technical University of Denmark",
+      "location": "Kongens Lyngby",
+      "workModel": "On-site",
+      "posted": "5 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4487253146/",
+      "notes": "Building industry partnerships and research funding for offshore energy at DTU, real partnerships work with a climate angle. The gap is that they want several years in the energy sector or research, so this is a stretch unless you can link your ecosystem work to industry funding."
+    },
+    {
+      "id": "platform-engineering-senior-events-growth-manager",
+      "removed": true
+    },
+    {
+      "id": "techbbq-global-partnerships-manager",
+      "removed": true
+    },
+    {
+      "id": "zoku-community-events-partnerships-manager",
+      "removed": true
+    },
+    {
+      "id": "bab-consult-senior-event-congress-manager-sofia",
+      "removed": true
+    },
+    {
+      "id": "epassi-people-experience-events-project-lead",
+      "removed": true
+    },
+    {
+      "id": "dtu-project-manager-climate-energy-policy",
+      "removed": true
+    },
+    {
+      "id": "copenhagen-capacity-project-manager-science-hub",
+      "removed": true
+    }
+  ]
+}
