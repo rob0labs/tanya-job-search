@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "lastScan": "2026-11-17",
+    "gradeA": 2,
+    "gradeB": 1,
+    "passedVerification": 21,
+    "notes": "Two good new ones: BioInnovation Institute wants a Program Coordinator for its startup mentor programme, and DTU Nanolab has an English-first outreach and events role that starts on 1 January. NKT, GSM, INSAIT and RockSchool have closed."
+  },
+  "health": [
+    {
+      "source": "LinkedIn (Denmark, EU remote, Sofia)",
+      "actor": "curious_coder/linkedin-jobs-scraper",
+      "status": "ok",
+      "items": 323,
+      "notes": "13 searches, 312 unique, 124 dropped as Danish-language, 34 outside Capital Region, 87 off-role titles"
+    },
+    {
+      "source": "The Hub",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 62,
+      "notes": "Mostly engineering, student and part-time roles; Mesh Event Coordinator has closed"
+    },
+    {
+      "source": "climate.jobs Denmark",
+      "actor": "WebFetch",
+      "status": "ok",
+      "items": 11,
+      "notes": "One remote climate communications role"
+    },
+    {
+      "source": "Hobo Copenhagen (Strawberry jobs)",
+      "actor": "WebSearch + WebFetch",
+      "status": "ok",
+      "items": 2,
+      "notes": "Only Sales Manager and General Manager; Villa Copenhagen (same group) is hiring an events role"
+    }
+  ],
+  "dream": [
+    {
+      "name": "Mesh Community",
+      "hit": false,
+      "roles": "Event Coordinator (temporary) is no longer active. Already applied."
+    },
+    {
+      "name": "Hobo Copenhagen",
+      "hit": false,
+      "roles": "Only Sales Manager and General Manager listed. Villa Copenhagen in the same Strawberry group is hiring a Conference & Event Executive."
+    },
+    {
+      "name": "Klimate / Nordic Carbon Removal Association",
+      "hit": false,
+      "roles": "Nothing new."
+    },
+    {
+      "name": "Copenhagen Capacity",
+      "hit": false,
+      "roles": "Nothing new."
+    },
+    {
+      "name": "State of Green",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "BLOXHUB",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "CLEAN",
+      "hit": false,
+      "roles": "Nothing found"
+    },
+    {
+      "name": "TechBBQ",
+      "hit": false,
+      "roles": "Only the part-time Nordic India coordinator role; Head of Partnerships is no longer active."
+    }
+  ],
+  "jobs": [
+    {
+      "id": "bii-program-coordinator-nome",
+      "grade": "A",
+      "track": "programme",
+      "country": "DK",
+      "title": "Program Coordinator - NOME (Maternity cover - temporary position)",
+      "company": "BioInnovation Institute (BII)",
+      "location": "Copenhagen",
+      "workModel": "On-site, temporary (about 12 months)",
+      "salary": "",
+      "posted": "17 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4490431191/",
+      "notes": "This is the closest thing to your Health Tech Hub and Copenhagen Fintech work this week: running a startup mentor programme at an innovation hub, with mentor matchmaking, an Investor Day and an Annual Meeting, plus partner networks across the Nordics, Germany, the UK and the Baltics. They ask for a Master's and 1 to 3 years in programme or event coordination, so you clear the bar; lead with Nordic Fintech Week and your social entrepreneurship degree. Honest gaps: it is a 12 month maternity cover starting around February 2027, and Coordinator pay will likely sit under 40,000.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "dtu-nanolab-outreach-coordinator",
+      "grade": "A",
+      "track": "events",
+      "country": "DK",
+      "title": "Outreach coordinator - DTU Nanolab",
+      "company": "DTU - Technical University of Denmark",
+      "location": "Kongens Lyngby",
+      "workModel": "On-site",
+      "salary": "Danish public collective agreement (AC or HK)",
+      "posted": "12 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4489924824/",
+      "notes": "Starts exactly on 1 January 2027 and is English-first: you would run workshops, webinars and training for a 30-partner EU quantum project, plus newsletters, social posts and outreach material. That is your Health Tech Hub plus Copenhagen Fintech mix almost word for word; lead with coordinating many partners at once. The honest gap is the deep tech subject, so show you enjoy translating science for a broad audience. Deadline 29 November.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "villa-copenhagen-conference-event-executive",
+      "grade": "B",
+      "track": "events",
+      "country": "DK",
+      "title": "Conference & Event Executive @ Villa Copenhagen",
+      "company": "Nordic Hotels & Resorts (Strawberry)",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "14 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4488987982/",
+      "notes": "A creative hotel with a sustainability angle, English is accepted, and they ask for 2 years of event experience; pension and health insurance are included. Strawberry also owns Hobo, so this is a door into the group before Hobo opens. The honest gap: it is client-booked conference planning with upselling, more execution than stakeholder work, and an Executive title is likely below your salary target. Apply by 1 December.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "safeguard-global-webinar-events-manager",
+      "grade": "C",
+      "track": "events",
+      "country": "BG",
+      "title": "Webinar Events Manager",
+      "company": "Safeguard Global",
+      "location": "Bulgaria",
+      "workModel": "Remote",
+      "salary": "From EUR 40,000 a year in Bulgaria",
+      "posted": "14 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4491002107/",
+      "notes": "Your Sofia option: a fully remote role owning a webinar programme, including hosting live sessions and working with external partners. The gaps are that it is virtual events only, it is HR tech with a lead generation focus, and the Bulgarian salary is well below your Copenhagen target.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "prime-insights-event-manager",
+      "grade": "C",
+      "track": "events",
+      "country": "REMOTE",
+      "title": "Event Manager",
+      "company": "Prime Insights",
+      "location": "Amsterdam (remote)",
+      "workModel": "Remote",
+      "salary": "",
+      "posted": "14 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4490736396/",
+      "notes": "You would build their event function from scratch, with lots of ownership and later employer branding and community work. The gaps: it is B2B trade show and lead generation work for a market research firm, and they do not say which countries the remote setup covers, so ask before investing time.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "febs-events-manager",
+      "grade": "C",
+      "track": "events",
+      "country": "REMOTE",
+      "title": "Events Manager",
+      "company": "FEBS",
+      "location": "Remote (prefers Germany, Spain or UK)",
+      "workModel": "Remote",
+      "salary": "",
+      "posted": "10 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4489471138/",
+      "notes": "A non-profit scientific society running a 2,000 person congress and a European events programme, leading a small team. The honest gaps: they want over 5 years in events, ideally at a PCO or association, and prefer someone resident in Germany, Spain or the UK. Worth a short note asking if Denmark works.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "climate-collective-communications-associate",
+      "grade": "C",
+      "track": "marketing",
+      "country": "REMOTE",
+      "title": "Communications Associate",
+      "company": "Climate Collective Foundation",
+      "location": "Remote",
+      "workModel": "Remote",
+      "salary": "",
+      "posted": "13 Nov 2026",
+      "source": "climate.jobs",
+      "url": "https://climate.jobs/company/climate-collective-foundation/communications-associate",
+      "notes": "A climate non-profit, remote, mid-level, covering communications for programmes, events, newsletters and partner channels. The gap is that it is a writing and content role rather than events or partnerships, and the listing does not give requirements or salary.",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "klattermusen-community-marketing-specialist",
+      "grade": "X",
+      "track": "community",
+      "country": "DK",
+      "title": "Community Marketing Specialist",
+      "company": "Klättermusen AB",
+      "location": "Copenhagen",
+      "workModel": "On-site",
+      "salary": "",
+      "posted": "10 Nov 2026",
+      "url": "https://www.linkedin.com/jobs/view/4489472729/",
+      "notes": "Shown so you can see the filter: a lovely community, events and partnerships role for a sustainable outdoor brand, but it requires fluent Danish and 5 years in community marketing.",
+      "source": "LinkedIn",
+      "scanDate": "2026-11-17",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "insait-program-manager-research-projects",
+      "removed": true
+    },
+    {
+      "id": "rockschool-business-community-development-sofia",
+      "removed": true
+    },
+    {
+      "id": "nkt-stakeholder-relations-coordinator",
+      "removed": true
+    },
+    {
+      "id": "gsm-culture-specialist",
+      "removed": true
+    }
+  ]
+}
