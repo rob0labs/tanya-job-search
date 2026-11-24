@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "lastScan": "2026-11-24",
+    "gradeA": 1,
+    "gradeB": 1,
+    "passedVerification": 4,
+    "notes": "Onomondo is the standout: you would own their IoT summit, online summits and partner co-marketing at an English-first Copenhagen scale-up. Tourism Ireland is a senior partnerships role that closes on 3 December. Novo Nordisk, Zyte and Fiskars have closed."
+  },
+  "health": [
+    {"source": "LinkedIn (Denmark, EU remote, Sofia)", "actor": "curious_coder/linkedin-jobs-scraper", "status": "ok", "items": 325, "notes": "13 searches, 312 unique, 126 dropped as Danish-language, 30 outside Capital Region, 111 off-role titles, 44 reviewed by hand"},
+    {"source": "The Hub", "actor": "WebFetch", "status": "ok", "items": 47, "notes": "Mostly engineering, student and part-time roles; marketing role filter returned nothing"},
+    {"source": "climate.jobs Denmark", "actor": "WebFetch", "status": "ok", "items": 10, "notes": "Nothing new in your lane; one remote operations role at Youth Climate Justice Fund is mostly admin and finance"},
+    {"source": "Hobo Copenhagen (Strawberry jobs)", "actor": "WebSearch + WebFetch", "status": "ok", "items": 4, "notes": "No Hobo Copenhagen roles; Villa Copenhagen events role still open"}
+  ],
+  "dream": [
+    {"name": "Mesh Community", "hit": false, "roles": "Nothing new. Already applied."},
+    {"name": "Hobo Copenhagen", "hit": false, "roles": "No Copenhagen roles listed this week, only Hobo Oslo kitchen and bar roles."},
+    {"name": "Klimate / Nordic Carbon Removal Association", "hit": false, "roles": "Nothing new."},
+    {"name": "Copenhagen Capacity", "hit": false, "roles": "Nothing new."},
+    {"name": "State of Green", "hit": false, "roles": "Nothing found"},
+    {"name": "BLOXHUB", "hit": false, "roles": "Nothing found"},
+    {"name": "CLEAN", "hit": false, "roles": "Nothing found"},
+    {"name": "TechBBQ", "hit": false, "roles": "Nothing new verified; only the part-time Nordic India coordinator role is still on The Hub."}
+  ],
+  "jobs": [
+    {
+      "id": "onomondo-events-partner-marketing-lead",
+      "grade": "A",
+      "track": "events",
+      "country": "DK",
+      "title": "Events & Partner Marketing Lead",
+      "company": "Onomondo",
+      "location": "Copenhagen",
+      "workModel": "Hybrid, full-time",
+      "salary": "",
+      "posted": "17 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4491430430/",
+      "notes": "You would own their in-person summit Made for IoT end to end, run online summits, set the conference strategy and handle partner co-marketing and budgets, which is Nordic Fintech Week with more say over strategy. English is the only language required and health insurance is included. Honest gap: they want 3 to 5 years in B2B tech marketing, so lead with your speaker and partner outreach, the 50+ events and how you measured them.",
+      "scanDate": "2026-11-24",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "tourism-ireland-publicity-partnerships-manager",
+      "grade": "B",
+      "track": "partnerships",
+      "country": "DK",
+      "title": "Publicity and Partnerships Manager Northern Europe",
+      "company": "Tourism Ireland",
+      "location": "Copenhagen",
+      "workModel": "Hybrid, full-time",
+      "salary": "Public pay scale",
+      "posted": "19 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4492450350/",
+      "notes": "A tourism partnerships role covering the Nordics and Benelux from Copenhagen: co-operative campaigns with airlines, hotels and attractions, stakeholder work with embassies, and representing Ireland at events. Honest gap: it is a senior post that also leads a team and manages PR agencies and media relations, so pitch your 20+ community partners and sponsor work. Closes 3 December at noon GMT.",
+      "scanDate": "2026-11-24",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "dis-community-advisor",
+      "grade": "C",
+      "track": "community",
+      "country": "DK",
+      "title": "Community Advisor",
+      "company": "DIS - Study Abroad",
+      "location": "Copenhagen",
+      "workModel": "On-site, full-time",
+      "salary": "",
+      "posted": "19 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4492495035/",
+      "notes": "A real community role that starts exactly on 1 January, English-first with Danish only a plus: you would build community among American exchange students in their housing and plan activities and events. Honest gap: it is closer to student life support than partnerships, includes evening dinners and conflict mediation, and will likely pay under your target. Your 4+ relocations and Mekitsi.Club are the story here.",
+      "scanDate": "2026-11-24",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {
+      "id": "abcam-global-events-manager",
+      "grade": "C",
+      "track": "events",
+      "country": "REMOTE",
+      "title": "Global Events Manager",
+      "company": "Abcam",
+      "location": "Remote (listed under Munich, Germany)",
+      "workModel": "Remote, full-time",
+      "salary": "",
+      "posted": "20 Nov 2026",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4491950927/",
+      "notes": "Fully remote global events role at a life sciences company: budgets, vendors, agendas and registration for scientific conferences, with about 25% travel. Honest gaps: they ask for biotech events experience, it is posted under Germany so check that Denmark works, and it is corporate trade show work rather than community. Lead with Health Tech Hub and your vendor and budget ownership.",
+      "scanDate": "2026-11-24",
+      "verified": true,
+      "dreamCompany": false
+    },
+    {"id": "novo-nordisk-congress-strategy-execution-manager", "removed": true},
+    {"id": "zyte-events-manager-remote", "removed": true},
+    {"id": "fiskars-marketing-activation-manager-gjrc", "removed": true},
+    {"id": "klattermusen-community-marketing-specialist", "removed": true}
+  ]
+}
